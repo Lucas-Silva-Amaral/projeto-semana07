@@ -1,5 +1,6 @@
 # projeto-semana07-starter
 
+.
 
 ## Rodando o projeto
 
