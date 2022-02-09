@@ -2,10 +2,9 @@
   "name": "estudo-de-caso",
   "scripts": {
     "start": "parcel ./src/*.html",
-    "build": "parcel build"
+    "build": "parcel build ./src/index.html"
   },
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.1",
