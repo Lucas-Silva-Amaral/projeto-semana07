@@ -39,8 +39,7 @@ btnMobile.addEventListener("click", () => {
 window.addEventListener("resize", () => {
   if (window.innerWidth > 992) {
     nav.classList.remove("active")
-  } else {
-    nav.classList.add("active")
+    menuMobile.classList.remove("active")
   }
 })
 

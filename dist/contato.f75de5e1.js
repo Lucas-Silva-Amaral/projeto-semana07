@@ -29,8 +29,10 @@ btnMobile.addEventListener("click", ()=>{
     else menuMobile.classList.remove("active");
 });
 window.addEventListener("resize", ()=>{
-    if (window.innerWidth > 992) nav.classList.remove("active");
-    else nav.classList.add("active");
+    if (window.innerWidth > 992) {
+        nav.classList.remove("active");
+        menuMobile.classList.remove("active");
+    }
 });
 // FORMULARIO
 form.addEventListener("submit", (event)=>{
