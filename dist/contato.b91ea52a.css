@@ -207,140 +207,113 @@ a {
   justify-content: space-between;
 }
 
-.about {
+.contato {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin: 93px 16.5px 64px 50px;
-  margin-left: 16.5px;
-  margin-right: 16.5px;
+  align-items: center;
+  margin-top: 92px;
+  padding: 0px 16px;
+  margin-bottom: 64px;
 }
-.about-content {
+.contato-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
-@media (min-width: 992px) {
-  .about-content {
-    flex-direction: row;
-    gap: 140px;
-    height: 80vh;
-  }
-}
-.about-content-card {
-  border-radius: 8px;
-}
-@media (min-width: 992px) {
-  .about-content-card {
-    margin-top: 20px;
-    max-width: 448px;
-  }
-}
-.about-content-card-img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-@media (min-width: 992px) {
-  .about-content-card-img {
-    min-width: 448px;
-  }
-}
-@media (min-width: 992px) {
-  .about-content-info {
-    max-width: 593px;
-  }
-}
-.about-content-info-title {
-  max-width: 329px;
+.contato-container-title {
   font-family: inherit;
-  color: #ffffff;
   font-weight: 500;
   font-size: 34px;
   line-height: 40px;
   letter-spacing: 0.25px;
+  color: #ffffff;
+  margin: 0;
 }
 @media (min-width: 992px) {
-  .about-content-info-title {
-    max-width: 593px;
+  .contato-container-title {
     font-weight: 700;
     font-size: 60px;
     line-height: 71px;
     letter-spacing: -0.5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
   }
 }
-.about-content-info-text {
-  font-family: inherit;
+.contato-container-p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+@media (min-width: 992px) {
+  .contato-container-p {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.15px;
+  }
+}
+.contato-field-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  border-radius: 8px;
+  background-color: #26292d;
+}
+@media (min-width: 992px) {
+  .contato-field-form {
+    margin-top: 26px;
+  }
+}
+.contato-field-form-input {
+  min-width: 238px;
+  padding: 21.5px 20px;
+  border-radius: 8px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  background-color: #1c1e22;
+  border: solid 1px #a0a0a1;
+  color: #ffffff;
+}
+@media (min-width: 992px) {
+  .contato-field-form-input {
+    min-width: 357px;
+  }
+}
+.contato-field-form-label {
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 0.44px;
   color: #ffffff;
 }
-.about-content-info-textColor {
-  color: #5c62ec;
-}
-.about-skills-title {
-  font-family: inherit;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 32px;
-  color: #ffffff;
-  text-align: center;
-}
-@media (min-width: 992px) {
-  .about-skills-title {
-    font-weight: 500;
-    font-size: 34px;
-    line-height: 40px;
-    letter-spacing: 0.25px;
-  }
-}
-.about-skills-container {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-@media (min-width: 992px) {
-  .about-skills-container {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
-.about-skills-container-item {
-  background-color: #1c1e22;
-  padding: 20px;
+.contato-field-form-text {
+  max-width: 238px;
+  max-height: 116px;
+  min-height: 116px;
+  min-width: 238px;
+  height: 116px;
+  padding: 16px 20px;
   border-radius: 8px;
-}
-@media (min-width: 992px) {
-  .about-skills-container-item {
-    max-width: 314px;
-  }
-}
-.about-skills-container-item-h4 {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.15px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  background-color: #1c1e22;
+  border: solid 1px #a0a0a1;
   color: #ffffff;
 }
 @media (min-width: 992px) {
-  .about-skills-container-item-h4 {
-    font-weight: 500;
-    font-size: 34px;
-    line-height: 40px;
-    letter-spacing: 0.25px;
+  .contato-field-form-text {
+    min-width: 357px;
   }
 }
-.about-skills-container-item-p {
-  font-family: inherit;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0.25px;
-  color: #ffffff;
+.contato-field-form-btn {
+  min-width: 286px;
+  min-height: 48px;
+  background-color: #5c62ec;
 }
-/*# sourceMappingURL=about.371d5d12.css.map */
+@media (min-width: 992px) {
+  .contato-field-form-btn {
+    min-width: 399px;
+  }
+}
+/*# sourceMappingURL=contato.b91ea52a.css.map */
