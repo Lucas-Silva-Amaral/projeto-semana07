@@ -25,6 +25,9 @@ a {
   right: 0;
   background-color: #171718;
 }
+.navbar.active {
+  position: static;
+}
 .navbar-links {
   display: none;
 }
@@ -53,6 +56,26 @@ a {
     background-color: #5c62ec;
     height: 3px;
   }
+}
+
+.links-mobile {
+  display: none;
+}
+.links-mobile.active {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 18px;
+  border-bottom: solid 1px #5a5b5e;
+}
+.links-mobile.active > .links-mobile-link {
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.75px;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0;
 }
 
 .footer {

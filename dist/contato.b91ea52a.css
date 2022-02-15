@@ -204,116 +204,113 @@ a {
   justify-content: space-between;
 }
 
-.my-info {
+.contato {
+  display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
+  margin-top: 92px;
+  padding: 0px 16px;
+  margin-bottom: 64px;
 }
-@media (min-width: 992px) {
-  .my-info {
-    height: 90vh;
-  }
+.contato-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
-.my-info-title {
-  color: white;
+.contato-container-title {
+  font-family: inherit;
+  font-weight: 500;
   font-size: 34px;
   line-height: 40px;
   letter-spacing: 0.25px;
-  font-weight: 500;
-  max-width: 265px;
-  text-align: center;
-  margin-bottom: 24px;
+  color: #ffffff;
+  margin: 0;
 }
 @media (min-width: 992px) {
-  .my-info-title {
+  .contato-container-title {
+    font-weight: 700;
     font-size: 60px;
     line-height: 71px;
     letter-spacing: -0.5px;
-    font-weight: 700;
-    max-width: 524px;
   }
 }
-.my-info-title-name {
-  color: #5c62ec;
+.contato-container-p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
 }
-.my-info-buttons {
+@media (min-width: 992px) {
+  .contato-container-p {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.15px;
+  }
+}
+.contato-field-form {
+  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-@media (min-width: 992px) {
-  .my-info-buttons {
-    flex-direction: row;
-    gap: 24px;
-  }
-}
-.my-info .button__solid {
-  margin-bottom: 16px;
-}
-@media (min-width: 992px) {
-  .my-info .button__solid {
-    margin-bottom: 0;
-  }
-}
-.my-info .button__outlined {
-  width: fit-content;
-}
-
-.about {
-  padding: 0 16px 64px 16px;
-}
-.about-card {
-  color: white;
-  background-color: #3f4144;
-  padding: 16px;
+  align-items: flex-start;
+  padding: 24px;
   border-radius: 8px;
-  flex-direction: column;
+  background-color: #26292d;
 }
 @media (min-width: 992px) {
-  .about-card {
-    flex-direction: row;
-    gap: 32px;
-    max-width: 927px;
-    margin-right: auto;
-    margin-left: auto;
+  .contato-field-form {
+    margin-top: 26px;
   }
 }
-.about-card-img {
-  width: 100%;
-  height: auto;
+.contato-field-form-input {
+  min-width: 238px;
+  padding: 21.5px 20px;
   border-radius: 8px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  background-color: #1c1e22;
+  border: solid 1px #a0a0a1;
+  color: #ffffff;
 }
 @media (min-width: 992px) {
-  .about-card-img {
-    max-width: 326px;
+  .contato-field-form-input {
+    min-width: 357px;
   }
 }
-.about-card-title {
-  font-size: 24px;
+.contato-field-form-label {
   font-weight: 400;
-  line-height: 32px;
-  margin-top: 24px;
-  margin-bottom: 16px;
-}
-@media (min-width: 992px) {
-  .about-card-title {
-    font-size: 48px;
-    line-height: 57px;
-    font-weight: 500;
-    margin-bottom: 33px;
-    margin-top: 0px;
-  }
-}
-.about-card-description {
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 0.44px;
-  margin-bottom: 16px;
+  color: #ffffff;
+}
+.contato-field-form-text {
+  max-width: 238px;
+  max-height: 116px;
+  min-height: 116px;
+  min-width: 238px;
+  height: 116px;
+  padding: 16px 20px;
+  border-radius: 8px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  background-color: #1c1e22;
+  border: solid 1px #a0a0a1;
+  color: #ffffff;
 }
 @media (min-width: 992px) {
-  .about-card-description {
-    margin-bottom: 23px;
+  .contato-field-form-text {
+    min-width: 357px;
   }
 }
-/*# sourceMappingURL=index.ce1d6491.css.map */
+.contato-field-form-btn {
+  min-width: 286px;
+  min-height: 48px;
+  background-color: #5c62ec;
+}
+@media (min-width: 992px) {
+  .contato-field-form-btn {
+    min-width: 399px;
+  }
+}
+/*# sourceMappingURL=contato.b91ea52a.css.map */
